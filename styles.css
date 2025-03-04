@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+.header {
+  background-color: #1f2937;
+  height: 300px;
+  width: 100%;
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+#logo {
+  height: 60px;
+  margin: 15px;
+  padding-top: 10px;
+  width: auto;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+  padding-right: 15px;
+  margin: 50px;
+  font-size: 25px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
