@@ -79,15 +79,15 @@ li a {
   color: #e5e7eb;
 }
 
-#hero-img {
-  width: 290px;
-  margin-right: 65px;
-  margin-top: 10px;
-}
-
 #btn1 {
   background-color: #3882f6;
   margin: 20px;
   padding: 8px 25px;
   border-radius: 8px;
+}
+
+#hero-img {
+  width: 290px;
+  margin-right: 65px;
+  margin-top: 10px;
 }
