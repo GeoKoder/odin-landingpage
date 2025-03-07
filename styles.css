@@ -1,12 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Roboto;
+  font-family: "Roboto";
 }
 
 .header {
   background-color: #1f2937;
-  height: 300px;
+  height: 400px;
   width: 100%;
   color: white;
 }
@@ -16,12 +16,14 @@ nav {
   align-items: center;
   justify-content: space-between;
   height: 70px;
+  margin-bottom: 50px;
 }
 
 .logo-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-left: 20px;
 }
 
 #logo {
@@ -29,6 +31,11 @@ nav {
   margin: 15px;
   padding-top: 10px;
   width: auto;
+}
+
+.logo-container > h3 {
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 ul {
@@ -47,4 +54,40 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.intro > h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  font-family: "Roboto";
+}
+
+.intro > p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+#hero-img {
+  width: 290px;
+  margin-right: 65px;
+  margin-top: 10px;
+}
+
+#btn1 {
+  background-color: #3882f6;
+  margin: 20px;
+  padding: 8px 25px;
+  border-radius: 8px;
 }
