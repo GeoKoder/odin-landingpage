@@ -91,3 +91,38 @@ li a {
   margin-right: 65px;
   margin-top: 10px;
 }
+
+.gallery {
+  height: 300px;
+}
+
+.gallery > h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  height: 200px;
+}
+
+.products div {
+  margin: 0 30px;
+  color: #1f2937;
+  text-align: center;
+}
+
+.products > div > img {
+  width: 150px;
+  height: 150px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #3882f6;
+  border-radius: 10%;
+}
