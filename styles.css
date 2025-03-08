@@ -181,3 +181,14 @@ blockquote {
   border-color: #e5e7eb;
   border-radius: 8px;
 }
+
+.footer {
+  height: 100px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  font-size: 23px;
+  font-weight: 400;
+}
